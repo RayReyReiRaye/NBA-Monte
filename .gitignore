@@ -172,3 +172,24 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# .gitignore
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+*.pyc
+*.pyo
+*.pyd
+*.log
+.cache/
+debug.log
+.vscode/
+*.sqlite3
+
+# Jupyter Notebook runtime files
+*.ipynb
+
+# ChromeDriver executable (if not managed by webdriver_manager)
+chromedriver
+
