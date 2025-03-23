@@ -23,6 +23,10 @@ nba_model/
 ├── simulation.py              # Monte Carlo simulation engine for stat projections
 ├── main.py                    # Main execution logic (interactive script or notebook)
 ├── requirements.txt           # Python dependencies
+├── demo_notebook.ipynb        # Sample Jupyter Notebook runner
+├── .gitignore                 # Files excluded from version control
+├── assets/
+│   └── simulation_output.png  # Example screenshot (optional)
 └── README.md                  # Project overview and documentation
 ```
 
@@ -42,6 +46,12 @@ pip install -r requirements.txt
 ```
 
 3. Launch from a Jupyter Notebook or run `main.py` for terminal usage. The code was primarily built and tested within **VS Code** using **Jupyter Notebook**, aided by the **Data Wrangler** extension for interactive data table exploration.
+
+## Example Output
+
+Below is a sample output from running the simulation on the matchup `PHX @ DET`:
+
+![Simulation Output](assets/simulation_output.png)
 
 ## Requirements
 
@@ -69,4 +79,3 @@ pip install nba_api selenium beautifulsoup4 webdriver_manager xgboost thefuzz pa
 ## License
 
 This project is intended for educational and non-commercial purposes only.
-
