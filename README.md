@@ -13,6 +13,7 @@ This project is an advanced NBA analytics engine designed to predict individual 
 
 ## Code Structure
 
+```
 nba_model/
 ├── config.py                  # Constants, thresholds, and mappings
 ├── utils.py                   # Helper functions (name matching, normalization, etc.)
@@ -29,9 +30,10 @@ nba_model/
 
 1. Clone this repository:
 
+```bash
 git clone https://github.com/yourusername/nba-prediction-model.git
 cd nba-prediction-model
-
+```
 
 2. Install dependencies:
 
@@ -67,5 +69,4 @@ pip install nba_api selenium beautifulsoup4 webdriver_manager xgboost thefuzz pa
 ## License
 
 This project is intended for educational and non-commercial purposes only.
-
 
