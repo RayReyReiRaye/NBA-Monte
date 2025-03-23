@@ -50,7 +50,9 @@ pip install -r requirements.txt
 ## Example Output
 
 Below is a sample output from running the simulation on the matchup `PHX @ DET`:
-![image](https://github.com/user-attachments/assets/496c76a4-648b-4d83-b028-05dafbbb888f)
+![image](https://github.com/user-attachments/assets/963548a0-4b26-4d43-a5f3-f5cec0b44fff)
+![image](https://github.com/user-attachments/assets/53cdbeef-77d7-4f61-89d4-b2d0fb9b0888)
+
 
 
 ## Requirements
